@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Timetable</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f6f6;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            border: 1px solid #625050;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ff4f4f;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fde8e8;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Weekly Student Timetable</h2>
+
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+
+        <tr>
+            <td>9:00 - 10:00</td>
+            <td>Math</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td>Biology</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <td>10:00 - 11:00</td>
+            <td>Computer</td>
+            <td>Math</td>
+            <td>Chemistry</td>
+            <td>English</td>
+            <td>Art</td>
+        </tr>
+
+        <tr>
+            <td>11:00 - 12:00</td>
+            <td>Physics</td>
+            <td>Biology</td>
+            <td>Math</td>
+            <td>Computer</td>
+            <td>Music</td>
+        </tr>
+
+        <tr>
+            <td>12:00 - 1:00</td>
+            <td colspan="5" style="background:#bbf2ef; font-weight:bold;">Lunch Break</td>
+        </tr>
+
+        <tr>
+            <td>1:00 - 2:00</td>
+            <td>History</td>
+            <td>Geography</td>
+            <td>Sports</td>
+            <td>Chemistry</td>
+            <td>Computer</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
